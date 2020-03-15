@@ -1,6 +1,9 @@
 import React from "react";
 import { connect } from "react-redux";
 
+// Le container gère l'affichage du state et les boutons permettant de changer le state, en appelant dans le dispatch
+// les différents cas identifiés dans le reducer.
+
 const mapStateToProps = state => ({
   count: state
 });

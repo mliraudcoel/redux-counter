@@ -1,3 +1,5 @@
+// Le reducer permet de modifier le state selon différents cas identifiés.
+
 const counterReducer = (state = 0, action) => {
   switch (action.type) {
       case 'ADD1':
